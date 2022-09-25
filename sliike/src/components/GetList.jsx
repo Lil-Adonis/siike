@@ -10,7 +10,7 @@ class GetList extends Component {
       }
     }
     componentDidMount() {
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios.get('https://fh-api-dev.herokuapp.com/api/products-service/products/website/CAD?page=0&limit=8')
         .then(response =>{
             console.log(response)
             this.setState({post: response.data})
