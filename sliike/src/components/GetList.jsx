@@ -16,7 +16,6 @@ const GetList = () => {
 
   return (
     <div>
-      GetList
       {
         products // check if products have been fetched from database
           ?
